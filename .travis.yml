@@ -9,9 +9,6 @@ services:
 
 jobs:
   include:
-    - stage: test
-      script: 
-        - echo "No tests yet"
     - stage: build base
       script:
         - docker build -t test .

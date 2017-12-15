@@ -1,2 +1,2 @@
-FROM: servethehome/monero_cpu_minergate
+FROM servethehome/monero_cpu_minergate
 
