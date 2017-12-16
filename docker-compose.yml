@@ -3,16 +3,16 @@ services:
   tester1:
     image: servethehome/monero_cpu_minergate
     environment:
-      - username="$MON_USERNAME"
+      - username=rvlmine@gmail.com
   tester2:
       image: servethehome/monero_cpu_minergate
       environment:
-            - username="$MON_USERNAME"
+            - username=rvlmine@gmail.com
   tester3:
       image: servethehome/monero_cpu_minergate
       environment:
-            - username="$MON_USERNAME"
+            - username=rvlmine@gmail.com
   tester4:
       image: servethehome/monero_cpu_minergate
       environment:
-            - username="$MON_USERNAME"
+            - username=rvlmine@gmail.com
