@@ -2,9 +2,17 @@ version: '3'
 services:
   tester1:
     image: servethehome/monero_cpu_minergate
+    environment:
+      - username="$MON_USER"
   tester2:
       image: servethehome/monero_cpu_minergate
+      environment:
+            - username="$MON_USER"
   tester3:
       image: servethehome/monero_cpu_minergate
+      environment:
+            - username="$MON_USER"
   tester4:
       image: servethehome/monero_cpu_minergate
+      environment:
+            - username="$MON_USER"
