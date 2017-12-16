@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tester1:
+    image: servethehome/monero_cpu_minergate
+  tester2:
+      image: servethehome/monero_cpu_minergate
+  tester3:
+      image: servethehome/monero_cpu_minergate
+  tester4:
+      image: servethehome/monero_cpu_minergate

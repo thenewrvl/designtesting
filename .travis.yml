@@ -11,5 +11,4 @@ jobs:
   include:
     - stage: build base
       script:
-        - docker build -t test .
-        - docker run -it -e username="$MON_USERNAME" test
+        - docker-compose up
